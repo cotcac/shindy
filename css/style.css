@@ -1,0 +1,327 @@
+.table > thead > tr:first-child > td, 
+.table > tbody > tr:first-child > th {
+    border-top: none;
+}
+.right-bar{
+    margin-bottom: 30px;
+   
+   
+}
+.rightimg {
+    width: 50px;
+    padding-right: 5px;
+}
+.p-right{
+    margin-left: 50px;
+}
+img{
+	max-width:100%;
+}
+.nav-tabs.nav-justified > li > a {
+text-align:left;
+padding-left:0px !important;
+padding-right:0px !important;
+}
+/*to make navbar align with the rest of the page.*/
+.navbar-collapse{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-nav{
+	margin-left:10px;
+}
+.mylogo1{
+	padding-top:8px;
+}
+.mylogo1 img{
+    max-width: 150px;
+}
+#myNavbar{
+    margin-left: 0px !important;
+}
+.navbar {
+        padding: 0 20px;
+ }
+/*style left nav*/
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+/*Slider*/
+  .item_galery{
+      
+        height: 400px;
+    }
+  #myCarousel img{
+        max-height: 398px;
+        margin: 0 auto;/*center the image*/
+    }
+    .carousel-indicators li {
+    background-color: green;
+    border: 1px solid grey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    background-color: red;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    
+}
+/*End slider*/
+
+/*search*/
+ #ketqua{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    height:auto;
+     z-index: 1000;
+     position: absolute;
+     color: white;
+  }
+/*search*/
+/*reply form*/
+.reply-form{
+    display: none;
+}
+/*comment*/
+.comment_profile{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.money{
+    font-size: 20px;
+}
+/*comment*/
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 30px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+/*NAV BAR*/
+.nav-stacked {
+  background-color: #e6e6e6;
+}
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+.navbar-inverse {
+  background-color: #241e38;
+  border: #359acb;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-weight: bold;
+   padding-left: 0px;/*Default padding left 20, right 20 now make more right and no left*/
+  padding-right: 30px;/*more right*/
+ 
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  
+}
+.navbar .nav .active > a {  
+    color: #ffffff;  
+    background-color: green;
+  
+}
+/*navbar drop down active*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #241e38;
+   
+}
+/**END NAV BAR/
+/*SLIDER*/
+.my-container-slider {
+ /* background-image: url(../img/structure/slider-bg.jpg); */
+ background-color:white;
+ border: 1px solid grey;
+
+ margin-top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+ 
+}
+.my-container-slider img{
+    width: 100%;
+}
+/*remove the left and right gradiun background for slider */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+/*END SLIDER*/
+.thumbnail_cover{
+   
+     float: left;
+    margin-bottom: 10px;
+    height: 350px;
+    
+}
+
+/*Remove padding left for ol*/
+/*make border and space between col*/
+.classWithPad { 
+    margin:10px; 
+     height: 300px;
+   
+    border: 1px solid #dfdfdf;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
+}
+
+.h1, h1 {
+    font-size: 24px;
+}
+.h1_td{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.table > tbody > tr:first-child > td {
+    border: none;
+}
+
+
+#load,#load_login,.load {
+    display: none;
+}
+ul{
+    list-style: none;
+    padding-left: 15px;
+}
+/*make modal-sm bigger so it fix facebook like widget*/
+.modal-sm{
+    width: 400px;
+}
+
+/*# sourceMappingURL=style.css.map */
+#edit_load,#write_load{
+    display: none;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+iframe {
+    max-width: 100%;
+    max-height: 56.25vw; /* 315/560 = .5625 */
+}
+
+.col-lg-3:nth-child(4n+1){
+    clear: left;
+}
+.navbar-brand {
+    padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+    max-height: 60px;
+    padding-top: 5px; /* firefox bug fix */
+    width: auto;
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+.slider-img{
+    padding-top: 20px;
+}
+.thumbnail{
+    border: none;
+  
+}
+.thumbnail img{
+    border: none;
+    width: 400px;
+    height: 400px !important;
+  
+}
+.logo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.my-top-right{
+    text-align: right;
+    padding-top: 5px;
+}
+.phone_brand{
+    display: none;
+}
+@media (max-width: 767px)
+{
+    .mylogo1{
+        display:none;
+    }
+    .my_left_nav
+    {
+        display: none;
+    }
+    .phone_brand{
+    display: block;
+   
+    padding: 10px 5px 0 5px;
+
+   }
+   
+    .header_web{
+        display: none;
+    }
+}
+
+/*Center the card on mobile*/
+.navbar-card{
+    margin: 0;
+    float: none;
+}
+@media screen and (min-width: 767px)
+{
+    .header_mobile{
+        display: none;
+    }
+}
+.my_left_nav
+{
+    background-color: #ccc;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #241e38;
+}
+.card-header{
+    background-color: grey;
+}
+.card-header p{
+    padding: 20px;
+    color: white;
+    background-color: #241e38;
+}
+.card-block img{
+    padding: 10px;
+    
+  
+    
+}
+.my-padding{
+    padding: 10px;
+}
